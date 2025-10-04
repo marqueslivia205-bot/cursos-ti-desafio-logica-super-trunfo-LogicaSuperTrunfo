@@ -1,3 +1,40 @@
+# Super Trunfo Cidades (Implementação em C)
+
+Este projeto é uma implementação do desafio "Super Trunfo - Cidades" em linguagem C, com menu interativo e comparação de atributos entre cidades brasileiras.
+
+## Como funciona
+
+- Menu interativo no terminal para listar cartas, comparar atributos e sair.
+- Atributos disponíveis para comparação:
+  1. População
+  2. Área
+  3. PIB
+  4. Pontos Turísticos
+  5. Densidade Populacional
+  6. PIB per capita
+- O código é modular, com funções para exibir cartas, comparar atributos e mostrar o menu.
+- Fácil de expandir: basta adicionar mais cidades no vetor `cartas`.
+
+## Como compilar e executar
+
+1. Compile o programa:
+
+```bash
+gcc logicaSuperTrunfo.c -o logicaSuperTrunfo
+```
+
+2. Execute o programa:
+
+```bash
+./logicaSuperTrunfo
+```
+
+## Exemplo de uso
+
+Ao rodar o programa, siga o menu para listar cartas ou comparar duas cidades pelo atributo desejado.
+
+---
+
 # ⚠️ Importante!!!
 Você pode escolher qualquer um dos desafios para desenvolver. Sinta-se à vontade para começar pelo desafio que mais lhe interessa.
 
